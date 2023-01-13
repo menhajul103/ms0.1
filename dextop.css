@@ -1,0 +1,74 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+nav{
+   
+
+}
+.nev-bar{
+   padding: 70px;
+}
+.nev-bar .logo{
+            
+   text-align: left;
+}
+.nevbar-menu{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.nevbar-menu a{
+    line-height: 50px;
+}
+ a{
+    background-color:transparent;
+    color: black;
+}
+.achievment-contact {
+            
+    background-color: rgb(124, 243, 180);
+    height: 800px;
+    width: auto;
+    color: aliceblue;
+    position: relative;
+
+}
+.achievment-contact {
+            
+    background-color: rgb(124, 243, 180);
+    height: 2400px;
+    
+    color: rgb(26, 28, 30);
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    
+   
+    
+
+}
+
+.achievment{
+    margin: 40px;
+}
+.contact-me{
+    margin: 50px;
+}
+.more-ways-to-contact{
+  margin: 50px;
+    
+}
+footer .button-more .btn8{
+    color: rgb(54, 107, 228);
+    font-size: 32px;
+    box-shadow: 5px 5px 10px black ;
+ }

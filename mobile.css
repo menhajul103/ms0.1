@@ -1,0 +1,537 @@
+*{
+    box-sizing: border-box;
+    font-family: font-family:'Fira Sans', sans-serif;
+}
+body{
+    background-color:  rgb(210, 242, 231);
+    margin: 0;
+}
+    /* navigation bar start */
+/* main div 1 start here */
+        .checkbtn{
+            display: block;
+        }
+        nav  ul{
+            position: fixed;
+            width: 60%;
+            height: 150vh;
+            background: black;
+            left: -100%;
+           
+            transition:all.5s;
+            margin-top: -20px;
+            overflow: scroll;
+            
+        }
+        nav ul li{
+            margin: 30px 0;
+            display: block;
+           
+
+
+        }
+        a:hover, a.active{
+            background: none;
+             color:rgb(71, 237, 149)
+        } 
+        #check:checked ~  ul{
+            left: 0;
+        }
+        h1{
+            font-size: 2rem;
+            color: rgb(3, 33, 16);
+            text-align: center;
+        }
+
+        .matha{
+            text-decoration: none;
+            margin: 5px;
+            font-size:15px;
+            text-transform: uppercase;
+            color: rgb(239, 234, 234) ;
+            padding: 10px;
+            background-color: rgb(30, 177, 128);
+            border-radius: 10px;
+        
+        }
+        [class*="col-"]{
+            float: left;
+            padding: 10px;
+        }
+
+        /* for mobail */
+        [class*="col-"]{
+            width: 100%;
+        }
+        .nev-bar{
+           
+            background-color: aquamarine;
+            padding:80px 15px;
+            text-align: center;
+            position: static;
+        }
+        .nev-bar::after{
+            content: '';
+            display: table;
+            clear: both;
+        }
+        .nevbar-menu{
+            display: flex;
+           margin: 7px 0px;
+           padding: 10px;
+            flex-direction: column;
+        }
+        .nevbar-menu a:hover{
+            
+            background-color:gray;
+            border-radius: 10px;
+        }
+        .img{
+            width: 100px;
+            
+        }
+    /* navigation bar end */
+/* main div1 end  here */
+
+    /* first display style start */
+/* main div 2 start here */
+        .mm{
+            
+            
+            display: block;
+            
+            margin: 20px;
+            height: 800px;
+            border-radius: 10px;
+            overflow: hidden;
+        
+            
+        }
+        #mst{
+            height: 800px;
+            width: 100%;
+            position: absolute;
+        }
+        .welcome{
+            font-size: 60px;
+            color: rgb(17, 185, 138);
+            height: 70px;
+          
+        
+        }
+        .slider h1{
+            color:rgb(17, 185, 138);
+            margin-top: 50px;
+            background-color:  rgb(210, 242, 231 ,.9);;
+            height: 80px;
+            text-align: center;
+            
+            font-size: 20px;
+        }
+
+        .slider{
+            position: absolute;
+            width: 100%;
+            height: 170px;
+            background-image: url(image/m1.jpg);
+            background-size: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            
+
+            animation: sumthing 20s infinite;
+            
+            overflow: hidden;
+            
+        }
+        @keyframes sumthing{
+            25%{
+                background-image: url(image/m2.jpg);
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+            
+                
+            }
+            50%{
+                background-image: url(image/m3.jpg);
+                background-size: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+            
+            }
+            
+        }
+        /* first display style start */
+
+        /* profile start */
+            .profile{
+                position: relative;
+                margin: 0 auto;
+                background-color: rgb(176, 248, 221);
+                position: relative;
+                box-sizing: border-box;
+                
+            }
+            .top-image{
+            position: relative;
+            height: 500px;
+            width: 100%; 
+            
+            }
+            .pri{
+                text-decoration: underline;
+                font-size: 20px;
+            }
+            .profile-heding{
+                position: absolute;
+                top: 150px;
+                left:20% ;
+                right: 20%;
+                text-align: center;
+                color: rgba(3, 3, 3, 0.5);
+                background-color: rgb(177, 246, 210);
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px 5px rgb(134, 242, 203);
+                font-family: 'Satisfy', cursive; ;
+            }
+            .profile-heding:hover{
+                box-shadow:10px 10px 5px 5px rgb(210, 239, 228);;
+
+            }
+/* main div 2 end here */
+
+
+/* main div 3 start here */
+    .bio{
+        background-color: rgb(210, 242, 231);
+        text-align: center;
+        
+    }
+
+    .bio-image img{
+        border: 5px double gray;
+        border-radius: 50%;
+    }
+    p{
+        text-align: justify;
+    }
+/* main div 3 end here */
+
+
+/* main div 4 start here */
+    .bio-data{
+        
+        color: rgba(3, 3, 3, 0.9);
+        background-color:  rgb(210, 242, 231);
+        font-family:'Times New Roman', Times, serif;
+        text-align: justify;
+        padding: 10px;
+        font-weight: none;
+        font-size: 20px;
+    }
+    .bio-data h4::first-letter{
+        font-size:50px;
+        
+    }
+    /* profile end */
+
+    /* profasional-expreanse start here */
+/* main div 4 end here */
+
+/* main div 5 start here*/
+    .profasional-expreanse{
+        
+        overflow: hidden;
+    }
+    .card{
+        box-shadow:5px 5px 10px black;
+        background-color: rgb(87,87,100);
+        margin: 20px; 
+        padding: 10px; 
+        height: 800px;
+        border-radius: 10px;  
+        overflow: scroll; 
+    }
+    .card:hover{
+        box-shadow: 5px 5px 5px 5px gray ;
+    }
+    .card-icon img{
+        border: 5px solid rgb(48, 2, 2);
+        border-radius: 50%;
+        height: 200px;
+        padding: 5px;
+    }
+    .card-icon{
+        
+        text-align: center;
+    
+    }
+
+    
+
+
+    .card-heding-text{
+        background-color: rgb(50,5,5,.5);
+        margin: 20px;
+        border-radius: 10px;
+        
+        
+    }
+    .card-heding-text h1{
+        color: blanchedalmond;
+
+    }
+    .card-detils-text{
+        color: antiquewhite;
+        font-size:20px;
+    }
+    .skill-conteiner{
+        padding: 20px;
+    }
+    .skill-conteiner li{
+        list-style: none;
+        font-weight: bolder;
+        margin: 20px;
+        position: relative;
+        text-transform:uppercase;
+        display: block;
+    }
+    .skill-conteiner li::before{
+    content: '';
+    position: absolute;
+        height: 15px;
+        top: calc(100% + 5px);
+        width: 100%;
+        background-color: rgba(169, 243, 237, 0.8);
+        border-radius: 1000px;
+    
+    }
+    .skill-conteiner li::after{
+        content: '';
+        position: absolute;
+        height: 15px;
+        top: calc(100% + 5px);
+        width:0%;
+        left: 0px;
+        background-color: rgb(22, 219, 202);
+        border-radius: 1000px;
+
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count:3;
+        
+    }
+    .skill-conteiner li.html::after{
+        animation-name: html;
+    }
+    @keyframes html{
+        to{
+            width: 90%;
+        }
+    }
+    .skill-conteiner li.css::after{
+        animation-name: css;
+    }
+    @keyframes css{
+        to{
+            width: 80%;
+        }
+    }
+    .skill-conteiner li.response::after{
+        animation-name: response;
+    }
+    @keyframes response{
+        to{
+            width: 70%;
+        }
+    }
+    .skill-conteiner li.bootstap::after{
+        animation-name: bootstap;
+    }
+    @keyframes bootstap {
+        to{
+            width: 90%;
+        }
+    }
+    .skill-conteiner li.java::after{
+        animation-name: j;
+    }
+    @keyframes j{
+        to{
+            width: 50%;
+        }
+    }
+    .skill-conteiner li.java-script::after{
+        animation-name: js;
+    }
+    @keyframes js{
+        to{
+            width: 40%;
+        }
+    }
+    .skill-conteiner li.jquery::after{
+        animation-name:jq;
+    }
+    @keyframes jq{
+        to{
+            width: 60%;
+        }
+    }
+
+
+
+
+
+    /* profasional-expreanse end here */
+        .dotted-hr{
+            border: dotted 6px rgb(247, 246, 246);
+            border-bottom: none;
+            margin: 0px auto;
+            width: 100px;
+    
+}
+        /* achivment contact start here  */
+/* main div 5 endt here */
+
+
+/* main div 6 start here*/
+        .achievment-contact {
+            
+            background-color: rgb(124, 243, 180);
+            height: 2400px;
+            
+            color: rgb(26, 28, 30);
+            position: relative;
+            box-sizing: border-box;
+            width: 100%;
+            
+           
+            
+
+        }
+        .achievment{
+            background-color: rgb(17, 218, 54);
+           
+            margin: 20px;
+            width: auto;
+            box-shadow: 5px 5px 10px rgb(13, 13, 13);
+            height: 700px;
+        }
+        .contact-me{
+            background-color: rgb(17, 218, 54);
+            margin: 20px;
+            border-radius: 5px;
+            width: auto;
+            box-shadow: 5px 5px 10px rgb(13, 13, 13);
+            border-radius: 5px;
+            height: 700px;
+           
+        }
+        .more-ways-to-contact{
+            background-color: rgb(17, 218, 54);
+            margin: 20px;
+            border-radius: 5px;
+            width: auto;
+            box-shadow: 5px 5px 10px rgb(13, 13, 13);
+            border-radius: 5px;
+            height: 700px;  
+            text-align: center; 
+            
+        }
+        .achievment-contact input{
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            
+            border: none;
+            resize: none;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px;
+        }
+        .achievment-contact textarea{
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: none;
+            resize: none;
+            box-shadow: 5px 5px 10px;
+        }
+        .achievment-contact button{
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 5px 5px 10px;
+            cursor: pointer;
+            width: 100px;
+            font-size: 15px;
+        }
+        .achievment-contact button:hover{
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgb(13, 13, 13);
+            cursor: pointer;
+            width: 100px;
+            background-color: aquamarine;
+            color: white;
+           
+        }
+       
+
+
+        /* achivment contact end here  */
+/* main div 6 end here */
+         /* more contact button star here */
+          footer .button-more .btn {
+            font-size: 32px;
+            color: rgb(37, 144, 226);
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn2{
+            color: rgb(226, 43, 11);
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn3{
+            color: rgb(47, 231, 99);
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn4{
+            color: rgb(36, 209, 228);
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn5{
+            color: tomato;
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn6{
+            color: rgb(9, 28, 232);
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn7{
+            color: rgb(0, 178, 255);
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+         footer .button-more .btn8{
+            color: rgb(26, 54, 119);
+            font-size: 32px;
+            box-shadow: 5px 5px 10px black ;
+         }
+          footer.button-more .btn9{
+           
+           background-color: red;
+            text-decoration: none;
+        } 
+            
+         /* more contact button end here */

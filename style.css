@@ -1,0 +1,50 @@
+nav{
+            
+          
+         
+    position: fixed;      
+    background-color: rgb(244, 209, 209);
+    z-index:1;
+  
+    height: 80px;
+    width: 100%;
+    
+}
+
+nav  ul{
+    margin-right: 20px;
+    float: right;
+}
+ nav ul h3{
+    font-size:50px;
+}
+
+nav ul h3, li{
+    list-style: none;
+    margin: 20px;
+    display: inline-block;
+    color: rgb(109, 246, 196);
+    
+
+}
+nav ul li a{
+    color: rgb(226, 242, 236);
+    text-decoration: none;
+    background-color: none;
+    
+}
+.active,a:hover{
+    color: rgb(59, 208, 29);
+}
+.checkbtn{
+    
+   
+    font-size: 40px;
+    line-height: 100px;
+    display:none ;
+    margin-left: 40px;
+    
+}
+#check{
+    display: none;
+}
